@@ -1,12 +1,25 @@
+@font-face {
+	font-family: 'RobotoSlabLight';
+    src: url('font/robotoslab_light_macroman/RobotoSlab-Light-webfont.eot');
+    src: url('font/robotoslab_light_macroman/RobotoSlab-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/robotoslab_light_macroman/RobotoSlab-Light-webfont.woff') format('woff'),
+         url('font/robotoslab_light_macroman/RobotoSlab-Light-webfont.ttf') format('truetype'),
+         url('font/robotoslab_light_macroman/RobotoSlab-Light-webfont.svg#RobotoSlabRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html {
 	background: no-repeat center right url('icons/bg.jpg') black;
 	background-size: contain;
 }
 
+
+
 html, body { height: 100%; }
 body {
 	background: rgba(0,0,0,0.6);
-	font: 11px sans-serif;
+	/*font: 11px sans-serif;*/
 	margin: 0;
 }
 
@@ -24,6 +37,7 @@ body {
 }
 
 h1 {
+	font-family: 'RobotoSlabLight';
 	font-size: 1em;
 	margin: 0;
 }
