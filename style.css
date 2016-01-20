@@ -52,6 +52,7 @@ hr {
 	position: relative;
 	overflow: hidden;
 	width: 100px; height: 100px;
+	image-rendering: -webkit-optimize-contrast;
 }
 
 #main a .solid {
